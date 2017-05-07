@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { MdSidenavModule, MdButtonModule, MdIconModule } from '@angular/material';
+import { MaterialModule, MdSidenavModule, MdButtonModule, MdIconModule, MdGridListModule, MdToolbarModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 
@@ -19,7 +19,7 @@ import 'hammerjs';
     FormsModule,
     HttpModule,
     BrowserAnimationsModule,
-    MdSidenavModule, MdButtonModule, MdIconModule
+    MaterialModule, MdSidenavModule, MdButtonModule, MdIconModule, MdGridListModule, MdToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

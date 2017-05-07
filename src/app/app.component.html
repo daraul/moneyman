@@ -1,14 +1,20 @@
 <md-sidenav-container>
     <md-sidenav #sidenav mode="side">
-        <button md-mini-fab (click)="sidenav.toggle()">
-            <md-icon>add</md-icon>
-        </button>
+        
     </md-sidenav>
+  
+    <md-toolbar color="primary">
+        <button md-button (click)="sidenav.toggle()">
+            <md-icon>menu</md-icon>
+        </button>
+      
+        <span>Custom Toolbar</span>
+    </md-toolbar>
   
     <h1>
         The title: {{title}}
     </h1>
-  
+
     <button md-mini-fab (click)="sidenav.toggle()">
         <md-icon>add</md-icon>
     </button>
