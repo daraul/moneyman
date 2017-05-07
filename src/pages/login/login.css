@@ -1,0 +1,11 @@
+login-page {
+    flex-grow: 1;
+    height: 100%;
+}
+
+md-grid-list {
+    height: 500px;
+/*     background-image: url('../../assets/background-image.png'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
