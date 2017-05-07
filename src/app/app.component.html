@@ -1,3 +1,15 @@
-<h1>
-    The title: {{title}}
-</h1>
+<md-sidenav-container>
+    <md-sidenav #sidenav mode="side">
+        <button md-mini-fab (click)="sidenav.toggle()">
+            <md-icon>add</md-icon>
+        </button>
+    </md-sidenav>
+  
+    <h1>
+        The title: {{title}}
+    </h1>
+  
+    <button md-mini-fab (click)="sidenav.toggle()">
+        <md-icon>add</md-icon>
+    </button>
+</md-sidenav-container>
